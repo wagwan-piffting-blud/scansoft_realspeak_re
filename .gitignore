@@ -1,0 +1,8 @@
+# original engines - you can find downloads for both of these at https://eas.tools/tts-list.html
+RealSpeak/
+ScanSoft/
+
+# misc.
+__*__/
+HANDOFF.md
+HANDOFF_*.md
