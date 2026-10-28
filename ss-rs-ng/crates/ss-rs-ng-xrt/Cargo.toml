@@ -1,0 +1,14 @@
+[package]
+name = "ss-rs-ng-xrt"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Runtime for x86 code translated to Rust: registers, EFLAGS, x87, guest memory"
+
+# Deliberately empty, as in loqng-xrt: every translated function compiles
+# against this crate.
+[dependencies]
+
+[features]
+cover = []

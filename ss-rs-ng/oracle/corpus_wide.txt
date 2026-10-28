@@ -1,0 +1,25 @@
+On 03/15/2024 at 4:45 PM, the invoice totalled $1,234,567.89 (plus 8.25% tax).
+Call 1-800-555-0199 ext. 42, or fax (617) 555-0123 before 9 a.m.
+Visit http://www.example.com/path?id=7&lang=en or write to john.doe@example.org.
+Dr. Smith lives at 221B Baker St., Apt. #4, Boston, MA 02115, U.S.A.
+NASA, the FBI and UNICEF met with the CEO of IBM on Feb. 29th.
+Chapter XIV begins on page 1,024; see also sections 3.2.1 through 3.2.9.
+"Wait!" she said -- "don't go..." -- but he'd already left; it was 11:59:59.
+THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG, AGAIN AND AGAIN.
+He read the record, then went to record it; they live where the live music is.
+The temperature fell from 98.6 degrees to -40, a drop of 138.6 points.
+Pi is approximately 3.14159265358979, and e is roughly 2.718281828.
+In 1999, 2000, 2001 and 2010 the population was 6,000,000,000 and growing.
+Is it 7:30 or 19:30? Either way, meet me at Gate B12, Terminal 3.
+Mr. and Mrs. O'Neill's twins, Ann-Marie and Jean-Luc, turned 1st and 2nd.
+\rate=150\This sentence is spoken much faster than the default rate.
+\rate=60\And this one is spoken slowly, with deliberate care.
+First part.\pause=800\Second part, after a long pause.
+\vol=40\Quietly now.\vol=100\ And loud again, all of a sudden!
+A, B, C, D, E, F, G; x, y, z; 1, 2, 3; alpha, beta, gamma.
+Supercalifragilisticexpialidocious, antidisestablishmentarianism and floccinaucinihilipilification.
+The 3rd, 22nd, 101st and 1,000,000th visitors each received a 50% discount coupon worth 12 dollars and 5 cents.
+Ask them: why? how? when? where? who? what? Really?!
+It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us.
+Item 4a costs 3/4 of item 4b; ratio 16:9; score 21-17; version 2.0.1b.
+Hmm... uh, well, OK, fine. Yes. No. Maybe.

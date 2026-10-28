@@ -1,0 +1,16 @@
+[package]
+name = "ss-rs-ng"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "ScanSoft 2004 and RealSpeak Solo v4 2006 Tom, natively: text in, WAV out"
+
+[[bin]]
+name = "ss-rs-ng"
+path = "src/main.rs"
+
+[dependencies]
+ss-rs-ng-eng.workspace = true
+ss-rs-ng-host.workspace = true
+ss-rs-ng-voice.workspace = true

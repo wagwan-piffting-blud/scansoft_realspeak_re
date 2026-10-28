@@ -1,0 +1,36 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/ss-rs-ng-xrt",
+    "crates/ss-rs-ng-eng",
+    "crates/ss-rs-ng-host",
+    "crates/ss-rs-ng-voice",
+    "crates/ss-rs-ng",
+    "xtask",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.77"
+license = "GPL-3.0-or-later"
+
+[workspace.dependencies]
+ss-rs-ng-xrt = { path = "crates/ss-rs-ng-xrt" }
+ss-rs-ng-eng = { path = "crates/ss-rs-ng-eng" }
+ss-rs-ng-host = { path = "crates/ss-rs-ng-host" }
+ss-rs-ng-voice = { path = "crates/ss-rs-ng-voice" }
+
+[profile.release]
+opt-level = 3
+# Same reasoning as loqng: the translated engine is hundreds of thousands of
+# generated statements, and fat LTO over one codegen unit costs minutes for
+# nothing the gates can measure.
+lto = false
+codegen-units = 256
+panic = "abort"
+debug = "line-tables-only"
+strip = false
+
+[profile.dev.package."*"]
+opt-level = 3

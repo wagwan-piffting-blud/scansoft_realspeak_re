@@ -1,0 +1,10 @@
+[package]
+name = "ss-rs-ng-voice"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Optionally, the Tom voice files compiled into the binary (SSRSNG_BAKE)"
+build = "build.rs"
+
+[dependencies]

@@ -1,0 +1,16 @@
+[package]
+name = "ss-rs-ng-eng"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "The SS 2004 and RS 2006 engines, translated from x86 by tools/x86xlate.py"
+
+[dependencies]
+ss-rs-ng-xrt.workspace = true
+
+[features]
+default = ["rs", "ss"]
+rs = []
+ss = []
+cover = ["ss-rs-ng-xrt/cover"]

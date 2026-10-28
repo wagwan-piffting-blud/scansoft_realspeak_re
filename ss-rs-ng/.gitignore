@@ -1,0 +1,6 @@
+target/
+build/
+*.wav
+__pycache__/
+dist/
+.ssrsng_bake

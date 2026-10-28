@@ -1,0 +1,76 @@
+{
+ "pack": "rs",
+ "speech": "RealSpeak/speech",
+ "modules": [
+  {
+   "name": "rssoloapi",
+   "file": "components/common/rssoloapi.dll",
+   "base": "10000000"
+  },
+  {
+   "name": "comrsrc",
+   "file": "components/common/comrsrc.dll",
+   "base": "10020000"
+  },
+  {
+   "name": "combrk",
+   "file": "components/common/combrk.dll",
+   "base": "10030000"
+  },
+  {
+   "name": "ttsengine",
+   "file": "Components/common/ttsengine.dll",
+   "base": "10040000"
+  },
+  {
+   "name": "dcteg",
+   "file": "Components/common/dcteg.dll",
+   "base": "10060000"
+  },
+  {
+   "name": "xcoder",
+   "file": "Components/common/xcoder.dll",
+   "base": "10070000"
+  },
+  {
+   "name": "audiofetch",
+   "file": "components/common/audiofetch.dll",
+   "base": "10080000"
+  },
+  {
+   "name": "domain_mngr",
+   "file": "components/common/domain_mngr.dll",
+   "base": "10090000"
+  },
+  {
+   "name": "rettt",
+   "file": "components/common/rettt.dll",
+   "base": "100a0000"
+  },
+  {
+   "name": "stdpp_enu",
+   "file": "components/pp/stdpp_enu.dll",
+   "base": "100b0000"
+  },
+  {
+   "name": "g2p_enu",
+   "file": "components/g2p/g2p_enu.dll",
+   "base": "100f0000"
+  },
+  {
+   "name": "vf_tom_full",
+   "file": "components/voicefont/vf_tom_full.dll",
+   "base": "101d0000"
+  },
+  {
+   "name": "synth_155mrf22",
+   "file": "components/synthesizer/synth_155mrf22.dll",
+   "base": "10210000"
+  },
+  {
+   "name": "xlit_1252",
+   "file": "components/xlit/xlit_1252.dll",
+   "base": "10230000"
+  }
+ ]
+}

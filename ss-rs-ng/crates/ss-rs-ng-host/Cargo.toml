@@ -1,0 +1,14 @@
+[package]
+name = "ss-rs-ng-host"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Host for the translated SS/RS engines: loader, system imports, file system, rssoloapi driver"
+
+[dependencies]
+ss-rs-ng-xrt.workspace = true
+ss-rs-ng-eng.workspace = true
+
+[features]
+cover = ["ss-rs-ng-eng/cover"]

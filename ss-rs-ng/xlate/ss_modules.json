@@ -1,0 +1,66 @@
+{
+ "pack": "ss",
+ "speech": "ScanSoft/speech",
+ "modules": [
+  {
+   "name": "rssoloapi",
+   "file": "components/common/rssoloapi.dll",
+   "base": "10000000"
+  },
+  {
+   "name": "comrsrc",
+   "file": "components/common/comrsrc.dll",
+   "base": "10020000"
+  },
+  {
+   "name": "combrk",
+   "file": "components/common/combrk.dll",
+   "base": "10030000"
+  },
+  {
+   "name": "ttsengine",
+   "file": "Components/common/ttsengine.dll",
+   "base": "10040000"
+  },
+  {
+   "name": "dcteg",
+   "file": "Components/common/dcteg.dll",
+   "base": "10060000"
+  },
+  {
+   "name": "xcoder",
+   "file": "Components/common/xcoder.dll",
+   "base": "10070000"
+  },
+  {
+   "name": "audiofetch",
+   "file": "components/common/audiofetch.dll",
+   "base": "10080000"
+  },
+  {
+   "name": "stdpp_enu",
+   "file": "components/pp/stdpp_enu.dll",
+   "base": "10090000"
+  },
+  {
+   "name": "g2p_enu",
+   "file": "components/g2p/g2p_enu.dll",
+   "base": "100c0000"
+  },
+  {
+   "name": "vf_tom_full",
+   "file": "components/voicefont/vf_tom_full.dll",
+   "base": "10190000"
+  },
+  {
+   "name": "synth_155mrf22",
+   "file": "components/synthesizer/synth_155mrf22.dll",
+   "base": "10260000"
+  },
+  {
+   "name": "xlit_1252",
+   "file": "components/xlit/xlit_1252.dll",
+   "base": "10280000"
+  }
+ ]
+}
